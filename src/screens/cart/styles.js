@@ -1,5 +1,4 @@
 import { StyleSheet } from 'react-native';
-
 import { THEME } from '../../constants/theme';
 
 export const styles = StyleSheet.create({
@@ -13,7 +12,7 @@ export const styles = StyleSheet.create({
   },
   footer: {
     backgroundColor: THEME.colors.white,
-    borderTopColor: THEME.colors.primary,
+    borderTopColor: THEME.colors.secondary,
     borderTopWidth: 1,
     paddingVertical: 10,
     paddingHorizontal: 10,
@@ -30,7 +29,7 @@ export const styles = StyleSheet.create({
   buttonConfirmText: {
     color: THEME.colors.white,
     fontSize: 14,
-    fontFamily: 'Bitter-Medium',
+    fontFamily: 'Poppins-Medium',
   },
   totalContainer: {
     flex: 0.4,
@@ -41,11 +40,11 @@ export const styles = StyleSheet.create({
   totalText: {
     color: THEME.colors.white,
     fontSize: 14,
-    fontFamily: 'Bitter-Medium',
+    fontFamily: 'Poppins-Medium',
   },
   totalPrice: {
     color: THEME.colors.white,
     fontSize: 16,
-    fontFamily: 'Bitter-Bold',
+    fontFamily: 'Poppins-Bold',
   },
 });

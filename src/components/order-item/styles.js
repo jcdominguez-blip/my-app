@@ -1,5 +1,4 @@
 import { StyleSheet } from 'react-native';
-
 import { THEME } from '../../constants/theme';
 
 export const styles = StyleSheet.create({
@@ -25,7 +24,7 @@ export const styles = StyleSheet.create({
   headerContainer: {},
   date: {
     fontSize: 16,
-    fontFamily: 'Bitter-Regular',
+    fontFamily: 'Poppins-Regular',
     color: THEME.colors.text,
   },
   contentContainer: {
@@ -38,6 +37,6 @@ export const styles = StyleSheet.create({
   content: {},
   total: {
     fontSize: 16,
-    fontFamily: 'Bitter-Bold',
+    fontFamily: 'Poppins-Bold',
   },
 });

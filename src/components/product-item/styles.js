@@ -1,5 +1,4 @@
 import { StyleSheet } from 'react-native';
-
 import { THEME } from '../../constants/theme';
 
 export const styles = StyleSheet.create({
@@ -10,14 +9,14 @@ export const styles = StyleSheet.create({
     marginVertical: 10,
     borderRadius: 10,
     height: 110,
-    backgroundColor: THEME.colors.primary,
+    backgroundColor: THEME.colors.secondary,
   },
   contentContainer: {
     flex: 1,
     justifyContent: 'space-around',
   },
   title: {
-    fontFamily: 'Bitter-Medium',
+    fontFamily: 'Poppins-Medium',
     fontSize: 16,
     color: THEME.colors.white,
   },
@@ -26,12 +25,12 @@ export const styles = StyleSheet.create({
     justifyContent: 'space-between',
   },
   price: {
-    fontFamily: 'Bitter-Bold',
+    fontFamily: 'Poppins-Bold',
     fontSize: 16,
     color: THEME.colors.white,
   },
   weight: {
-    fontFamily: 'Bitter-Regular',
+    fontFamily: 'Poppins-Regular',
     color: THEME.colors.white,
     fontSize: 14,
   },

@@ -1,18 +1,18 @@
-import { useFonts } from 'expo-font';
-import { View, ActivityIndicator } from 'react-native';
-import { Provider } from 'react-redux';
+import { ActivityIndicator, View } from 'react-native';
 
-import { THEME } from './constants/theme';
 import AppNavigator from './navigation';
+import { Provider } from 'react-redux';
+import { THEME } from './constants/theme';
 import store from './store';
 import { styles } from './styles';
+import { useFonts } from 'expo-font';
 
 const App = () => {
   const [loaded] = useFonts({
-    'Bitter-Regular': require('../assets/fonts/Bitter-Regular.ttf'),
-    'Bitter-Bold': require('../assets/fonts/Bitter-Bold.ttf'),
-    'Bitter-Light': require('../assets/fonts/Bitter-Light.ttf'),
-    'Bitter-Medium': require('../assets/fonts/Bitter-Medium.ttf'),
+    'Poppins-Regular': require('../assets/fonts/Poppins-Regular.ttf'),
+    'Poppins-Bold': require('../assets/fonts/Poppins-Bold.ttf'),
+    'Poppins-SemiBold': require('../assets/fonts/Poppins-SemiBold.ttf'),
+    
   });
 
   if (!loaded) {

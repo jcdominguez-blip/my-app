@@ -1,8 +1,8 @@
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import { View, Text, TouchableOpacity } from 'react-native';
+import { Categories, ProductDetail, Products } from '../screens/index';
+import { Text, TouchableOpacity, View } from 'react-native';
 
 import { THEME } from '../constants/theme';
-import { Categories, ProductDetail, Products } from '../screens/index';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 const Stack = createNativeStackNavigator();
 
@@ -17,7 +17,7 @@ const ShopNavigator = () => {
         headerTintColor: THEME.colors.primary,
         navigationBarColor: THEME.colors.secondary,
         headerTitleStyle: {
-          fontFamily: 'Bitter-Bold',
+          fontFamily: 'Poppins-Bold',
           fontSize: 18,
           color: THEME.colors.title,
         },

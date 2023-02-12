@@ -1,10 +1,9 @@
-import Ionicons from '@expo/vector-icons/Ionicons';
-import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-
 import CartNavigator from './cart';
+import Ionicons from '@expo/vector-icons/Ionicons';
 import OrdersNavigator from './orders';
 import ShopNavigator from './shop';
 import { THEME } from '../constants/theme';
+import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 
 const BottomTab = createBottomTabNavigator();
 
@@ -15,11 +14,11 @@ const Tabs = () => {
       screenOptions={{
         headerShown: false,
         tabBarLabelStyle: {
-          fontFamily: 'Bitter-Regular',
+          fontFamily: 'Poppins-Regular',
           fontSize: 12,
         },
-        tabBarActiveTintColor: THEME.colors.primary,
-        tabBarInactiveTintColor: THEME.colors.gray,
+        tabBarActiveTintColor: THEME.colors.background,
+        tabBarInactiveTintColor: THEME.colors.background,
       }}>
       <BottomTab.Screen
         name="ShopTab"

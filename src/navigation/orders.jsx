@@ -1,7 +1,6 @@
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-
-import { THEME } from '../constants/theme';
 import { Orders } from '../screens';
+import { THEME } from '../constants/theme';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 const Stack = createNativeStackNavigator();
 
@@ -11,12 +10,12 @@ const OrdersNavigator = () => {
       initialRouteName="Orders"
       screenOptions={{
         headerStyle: {
-          backgroundColor: THEME.colors.white,
+          backgroundColor: THEME.colors.background,
         },
         headerTintColor: THEME.colors.primary,
         navigationBarColor: THEME.colors.secondary,
         headerTitleStyle: {
-          fontFamily: 'Bitter-Bold',
+          fontFamily: 'Poppins-Bold',
           fontSize: 18,
           color: THEME.colors.title,
         },

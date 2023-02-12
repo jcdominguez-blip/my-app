@@ -1,5 +1,4 @@
 import { StyleSheet } from 'react-native';
-
 import { THEME } from '../../constants/theme';
 
 export const styles = StyleSheet.create({
@@ -25,7 +24,7 @@ export const styles = StyleSheet.create({
   headerContainer: {},
   header: {
     fontSize: 16,
-    fontFamily: 'Bitter-Bold',
+    fontFamily: 'Poppins-Bold',
     color: THEME.colors.text,
     marginBottom: 5,
   },
@@ -38,7 +37,7 @@ export const styles = StyleSheet.create({
   },
   quantity: {
     fontSize: 14,
-    fontFamily: 'Bitter-Medium',
+    fontFamily: 'Poppins-Medium',
     color: THEME.colors.text,
     marginBottom: 5,
   },
@@ -47,7 +46,7 @@ export const styles = StyleSheet.create({
   },
   price: {
     fontSize: 16,
-    fontFamily: 'Bitter-Bold',
+    fontFamily: 'Poppins-Bold',
     color: THEME.colors.text,
     marginBottom: 5,
   },

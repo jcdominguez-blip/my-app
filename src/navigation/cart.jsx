@@ -1,7 +1,6 @@
-import { createNativeStackNavigator } from '@react-navigation/native-stack';
-
-import { THEME } from '../constants/theme';
 import { Cart } from '../screens';
+import { THEME } from '../constants/theme';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 const Stack = createNativeStackNavigator();
 
@@ -16,7 +15,7 @@ const CartNavigator = () => {
         headerTintColor: THEME.colors.primary,
         navigationBarColor: THEME.colors.secondary,
         headerTitleStyle: {
-          fontFamily: 'Bitter-Bold',
+          fontFamily: 'Poppins-Bold',
           fontSize: 18,
           color: THEME.colors.title,
         },

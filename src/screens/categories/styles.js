@@ -1,4 +1,4 @@
-import { StyleSheet, StatusBar } from 'react-native';
+import { StatusBar, StyleSheet } from 'react-native';
 
 import { THEME } from '../../constants/theme';
 
@@ -10,8 +10,8 @@ export const styles = StyleSheet.create({
   },
   title: {
     fontSize: 18,
-    fontFamily: 'Bitter-Bold',
-    color: THEME.colors.title,
+    fontFamily: 'Poppins-Bold',
+    color: THEME.colors.primary,
     padding: 10,
   },
   containerList: {
