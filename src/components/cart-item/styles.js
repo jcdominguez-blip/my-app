@@ -37,7 +37,7 @@ export const styles = StyleSheet.create({
   },
   quantity: {
     fontSize: 14,
-    fontFamily: 'Poppins-Medium',
+    fontFamily: 'Poppins-Regular',
     color: THEME.colors.text,
     marginBottom: 5,
   },

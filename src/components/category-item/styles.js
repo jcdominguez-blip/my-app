@@ -25,7 +25,7 @@ export const styles = StyleSheet.create({
   },
   title: {
     fontSize: 18,
-    fontFamily: 'Poppins-Medium',
+    fontFamily: 'Poppins-Regular',
     color: THEME.colors.white,
   },
 });

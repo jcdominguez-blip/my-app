@@ -16,7 +16,7 @@ export const styles = StyleSheet.create({
     justifyContent: 'space-around',
   },
   title: {
-    fontFamily: 'Poppins-Medium',
+    fontFamily: 'Poppins-SemiBold',
     fontSize: 16,
     color: THEME.colors.white,
   },

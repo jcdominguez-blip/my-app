@@ -29,7 +29,7 @@ export const styles = StyleSheet.create({
   buttonConfirmText: {
     color: THEME.colors.white,
     fontSize: 14,
-    fontFamily: 'Poppins-Medium',
+    fontFamily: 'Poppins-Regular',
   },
   totalContainer: {
     flex: 0.4,
@@ -40,7 +40,7 @@ export const styles = StyleSheet.create({
   totalText: {
     color: THEME.colors.white,
     fontSize: 14,
-    fontFamily: 'Poppins-Medium',
+    fontFamily: 'Poppins-Regular',
   },
   totalPrice: {
     color: THEME.colors.white,
